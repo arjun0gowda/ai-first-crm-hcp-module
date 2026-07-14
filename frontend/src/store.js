@@ -1,0 +1,1 @@
+import {configureStore} from '@reduxjs/toolkit'; import interaction from './store/interactionSlice'; import chat from './store/chatSlice'; export const store=configureStore({reducer:{interactions:interaction,chat}});
