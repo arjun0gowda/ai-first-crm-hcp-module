@@ -1,7 +1,6 @@
 # AI-First CRM — HCP Interaction Module
 
-A full-stack assignment solution matching the supplied task/video: a field representative can log HCP interactions through a structured form or conversational assistant. The assistant uses **Groq + LangGraph**, executes five CRM tools, persists records, and populates the form after a chat-based log.
-
+A full-stack CRM module for life-science field representatives to record and manage interactions with healthcare professionals. Users can log details through a structured form or an AI chat assistant, review past interactions, edit records, schedule follow-ups, and receive next-step suggestions. Built with React, FastAPI, LangGraph, Groq, and SQL.
 ## Stack
 - React + Vite + Redux Toolkit
 - FastAPI + SQLAlchemy
